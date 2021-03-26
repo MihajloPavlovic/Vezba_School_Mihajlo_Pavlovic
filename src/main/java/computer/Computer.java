@@ -3,7 +3,7 @@ package computer;
 public class Computer {
     
     private String operatingSystem;
-    private double privateTact;
+    private double processTact;
     private double memory;
     private int hardDrive;
     
@@ -11,8 +11,8 @@ public class Computer {
         this.operatingSystem = newOperatingSystem;
     }
     
-    public void setPrivateTact(double newPrivateTact) {
-        this.privateTact = newPrivateTact;
+    public void setProcessTact(double newProcessTact) {
+        this.processTact = newProcessTact;
     }
     
     public void setMemory(double newMemory) {
@@ -27,8 +27,8 @@ public class Computer {
         return this.operatingSystem;
     }
     
-    public double getPrivateTact() {
-        return this.privateTact;
+    public double getProcessTact() {
+        return this.processTact;
     }
     
     public double getMemory() {
@@ -43,9 +43,9 @@ public class Computer {
         
     }
     
-    public Computer(String operatingSystem, double privateTact, double memory, int hardDrive) {
+    public Computer(String operatingSystem, double processTact, double memory, int hardDrive) {
         this.operatingSystem = operatingSystem;
-        this.privateTact = privateTact;
+        this.processTact = processTact;
         this.memory = memory;
         this.hardDrive = hardDrive;
     }
