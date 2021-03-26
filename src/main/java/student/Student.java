@@ -66,4 +66,6 @@ public class Student {
         System.out.println("Memory: " + this.computer.getMemory());
         System.out.println("Hard drive: " + this.computer.getHardDrive());
     }
+
+   
 }
